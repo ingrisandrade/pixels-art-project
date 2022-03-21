@@ -31,3 +31,16 @@
 #cor4 {
   background-color: blueviolet;
 }
+
+#pixel-board {
+  width: 210px;
+  height: 210px;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: inline-block;
+}
