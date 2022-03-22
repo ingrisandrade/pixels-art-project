@@ -13,13 +13,13 @@ const cor1 = document.querySelector('#cor1');
 const cor2 = document.querySelector('#cor2');
 const cor3 = document.querySelector('#cor3');
 const cor4 = document.querySelector('#cor4');
-const input = document.querySelector('#input');
+const colorPalette = document.querySelector('#color-palette');
 
 function changeSelected(event) {
   const changeElement = document.querySelector('.selected');
   changeElement.classList.remove('selected');
   event.target.classList.add('selected');
-  input.value = '';
+  colorPalette.value = '';
 }
 
 cor1.addEventListener('click', changeSelected);
