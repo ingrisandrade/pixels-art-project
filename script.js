@@ -1,3 +1,4 @@
+// Adiciona um qudrado de pixels, com 25 pixels.
 const pixelBoard = document.querySelector('#pixel-board');
 
 function addFrame() {
@@ -9,6 +10,7 @@ function addFrame() {
 }
 addFrame();
 
+// Adiciona a classe selected na cor selecionada ao mesmo tempo que é removido da cor anteriormente selecionada.
 const colorPalette = document.querySelector('#color-palette');
 
 function changeSelected(event) {
