@@ -27,3 +27,12 @@ function selectColor(event) {
 }
 pixelBoard.addEventListener('click', selectColor);
 
+const selecionaBtnClear = document.querySelector('#clear-board');
+
+function buttonClear() {
+  const pixel = document.querySelectorAll('.pixel');
+  for (let i = 0; i < pixel.length; i += 1) {
+    pixel[i].style.backgroundColor = 'white';
+  }
+}
+selecionaBtnClear.addEventListener('click', buttonClear);

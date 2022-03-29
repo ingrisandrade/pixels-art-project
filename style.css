@@ -44,3 +44,8 @@
   background-color: white;
   display: inline-block;
 }
+
+#clear-board {
+  margin: 7px;
+}
+
