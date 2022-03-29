@@ -19,3 +19,11 @@ function changeSelected(event) {
   event.target.classList.add('selected');
 }
 colorPalette.addEventListener('click', changeSelected);
+
+function selectColor(event) {
+  const selected = document.querySelector('.selected');
+  const evento = event.target;
+  evento.style.backgroundColor = getComputedStyle(selected).getPropertyValue('background-color');
+}
+pixelBoard.addEventListener('click', selectColor);
+
