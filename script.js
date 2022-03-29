@@ -20,6 +20,7 @@ function changeSelected(event) {
 }
 colorPalette.addEventListener('click', changeSelected);
 
+// Seleciona a cor para pintar o quadro de pixels.
 function selectColor(event) {
   const selected = document.querySelector('.selected');
   const evento = event.target;
@@ -27,6 +28,7 @@ function selectColor(event) {
 }
 pixelBoard.addEventListener('click', selectColor);
 
+// Limpa o quadro de pixels
 const selecionaBtnClear = document.querySelector('#clear-board');
 
 function buttonClear() {
